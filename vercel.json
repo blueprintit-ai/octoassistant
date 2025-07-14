@@ -2,8 +2,7 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*)\\.(png|jpg|jpeg|gif|svg|ico|css|js|woff|woff2|ttf|eot)$",
-      "dest": "/$1.$2"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
